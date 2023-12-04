@@ -1,10 +1,15 @@
 body,
 html {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background: rgb(181, 197, 226);
 }
 
+main {
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    height: 100vh;
+}
 
 ul {
     margin-top: 2rem;
@@ -33,11 +38,11 @@ header {
 }
 
 .container {
-    width: 100%;
-    height: calc(100% - 50px);
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .container section {
